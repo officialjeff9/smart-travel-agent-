@@ -5,11 +5,6 @@ entrypoint = "index.html"
 
 [nix]
 channel = "stable-24_05"
-<<<<<<< HEAD
-packages = ["speech-tools", "openssh"]
-=======
-packages = ["zip"]
->>>>>>> 48e2b62a977caca8098a7165c781fdb35a4ea0a3
 
 [unitTest]
 language = "nodejs"
@@ -20,60 +15,5 @@ build = ["npm", "run", "build"]
 publicDir = "dist"
 
 [[ports]]
-localPort = 3000
-externalPort = 3003
-exposeLocalhost = true
-
-[[ports]]
-localPort = 3001
-externalPort = 4200
-exposeLocalhost = true
-
-[[ports]]
 localPort = 5173
 externalPort = 80
-exposeLocalhost = true
-
-[[ports]]
-localPort = 5174
-externalPort = 3000
-exposeLocalhost = true
-
-[[ports]]
-localPort = 5175
-externalPort = 3001
-exposeLocalhost = true
-
-[[ports]]
-localPort = 5176
-externalPort = 3002
-exposeLocalhost = true
-
-[[ports]]
-localPort = 5177
-externalPort = 5000
-exposeLocalhost = true
-
-[[ports]]
-localPort = 5178
-externalPort = 8008
-exposeLocalhost = true
-
-[[ports]]
-localPort = 5180
-externalPort = 5173
-exposeLocalhost = true
-
-[[ports]]
-localPort = 5181
-externalPort = 6000
-exposeLocalhost = true
-
-[[ports]]
-localPort = 5182
-externalPort = 6800
-exposeLocalhost = true
-
-[[ports]]
-localPort = 5189
-externalPort = 8000
