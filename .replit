@@ -5,7 +5,7 @@ entrypoint = "index.html"
 
 [nix]
 channel = "stable-24_05"
-packages = ["speech-tools"]
+packages = ["speech-tools", "openssh"]
 
 [unitTest]
 language = "nodejs"
