@@ -5,7 +5,11 @@ entrypoint = "index.html"
 
 [nix]
 channel = "stable-24_05"
+<<<<<<< HEAD
 packages = ["speech-tools", "openssh"]
+=======
+packages = ["zip"]
+>>>>>>> 48e2b62a977caca8098a7165c781fdb35a4ea0a3
 
 [unitTest]
 language = "nodejs"
